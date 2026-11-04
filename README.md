@@ -1,6 +1,8 @@
 # BuildPlanner RU/EN for Space Engineers 2
 
-[Русский ↓](#русский)
+**[⬇ Download / Скачать BuildPlanner RU/EN](https://github.com/udedagame/SpaceEngineers2-BuildPlanner/releases/download/v1.1.0-ru-en.3/BuildPlanner-1.1.0-ru-en.3.zip)**
+
+[Installation / Установка](https://github.com/udedagame/SpaceEngineers2-BuildPlanner/releases/tag/v1.1.0-ru-en.3) · [Русский ↓](#русский)
 
 Unofficial compatibility and localization update based on [Vito Pistelli's BuildPlanner](https://github.com/viligante8/SpaceEngineers2BuildPlanner), MIT licensed. Original copyright and third-party notices are retained. This is not an upstream-author release.
 
@@ -55,5 +57,9 @@ The previous compatibility build was confirmed working by the user. This bilingu
 
 Requires .NET SDK 9 and your own installed copy of the game:
 
+```powershell
+dotnet build BuildPlanner/BuildPlanner.csproj -c Release -p:GameDir="D:\SteamLibrary\steamapps\common\SpaceEngineers2\Game2" -p:Version=1.1.0-ru-en.3
+```
 
 The repository includes the original MIT license and third-party notices. Game DLLs are not distributed. README-UPSTREAM.md preserves the original project documentation for reference.
+
